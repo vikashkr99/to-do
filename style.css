@@ -81,11 +81,15 @@ fieldset button {
     justify-content: center;   
 }
 
-.show ul {
+.show ol {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
-.show ul li {
-    padding: 4px;
+.show ol li {
+    padding: 4px 8px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+    border-bottom: 2px white solid;
+    border-bottom-left-radius: 15px;
 }
