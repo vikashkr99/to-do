@@ -58,7 +58,7 @@ fieldset input {
     border-bottom: solid 2px white;
     padding: 8px;
     margin: 0 10px;
-    font-size: 1.1vw;
+    font-size: 110%;
     background: transparent;
     color: white;
 }
