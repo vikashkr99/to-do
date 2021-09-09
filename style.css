@@ -42,6 +42,8 @@ fieldset {
     width: 40%;
     padding: 10px;
     border: solid 1px white;
+    display: flex;
+    align-items: center;
 }
 
 fieldset legend {
