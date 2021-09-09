@@ -49,14 +49,7 @@ fieldset legend {
     font-size: 1.5vw;
 }
 
-fieldset form {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-fieldset form input {
+fieldset input {
     flex: 5;
     border: none;
     border-bottom: solid 2px white;
@@ -67,7 +60,7 @@ fieldset form input {
     color: white;
 }
 
-fieldset form button {
+fieldset button {
     flex: 2;
     border: none;
     padding: 8px;

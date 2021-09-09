@@ -1,5 +1,7 @@
 function loaded() {
 
+
+
     document.getElementById('add_command').addEventListener('click', function () {
         
         let userText = document.getElementById('userInput').value;
@@ -13,29 +15,10 @@ function loaded() {
             let textnode = document.createTextNode(userText);
             li.appendChild(textnode);
             document.getElementById('view_list').appendChild(li);
+            document.getElementById('userInput').value = "";
         }
 
-
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
